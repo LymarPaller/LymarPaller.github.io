@@ -1,0 +1,243 @@
+@import url('https://fonts.googleapis.com/css2?family=Lobster&family=Quicksand&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+
+body {
+    background-image: url(./objects/background.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: auto;
+    width: 100vw;
+}
+
+#side-bar-profile {
+    float: left;
+    width: 300px;
+    padding-left: 100px;
+    padding-top: 15px;
+    background-color: #0d0f4a;
+    color: white;
+    padding-bottom: 25px;
+    border-top-right-radius: 25px;
+    border-bottom-right-radius: 25px;
+    margin-bottom: 80px;
+
+    background-image: url(./objects/techlines.svg);
+    background-repeat: no-repeat;
+    background-position-y: 22em;
+    background-position-x: 15em;
+    background-size: auto;
+    background-blend-mode:difference;
+}
+
+#side-bar-profile:hover {
+    background-color: #031a29;
+}
+
+#right-side-panel {
+    user-select: none;
+    float: right;
+    margin-right: 100px;
+    width: 900px;
+    height: 1000px;
+}
+
+#profile-pic {
+    width: 200px;
+    border: 5px solid white;
+    border-radius: 50%;
+    color: white;
+    text-align: center;
+    overflow: hidden;
+}
+
+h3  {
+    color: #0d0f4a;
+    font-family: 'bebas neue';
+    font-size: 25px;
+    letter-spacing: 10px;
+}
+
+.header-side {
+    color: white;
+    font-family: 'bebas neue';
+    font-size: 25px;
+    letter-spacing: 10px;
+}
+
+hr {
+    color: white;
+}
+
+.side-bar-group-details {
+    margin: auto;
+    color: red;
+}
+
+article {
+    margin-top: 50px;
+}
+
+.sidebar-group-details {
+    margin-top: 25px;
+}
+
+dt {
+    margin-top: 25px;
+    margin-left: 25px;
+    font-family: 'bebas neue';
+    font-size: 18px;
+    letter-spacing: 5px;
+}
+
+dd {
+    font-family: 'quicksand';
+    font-weight: lighter;
+    margin-top: 15px;;
+}
+
+.nostyle {
+
+    color: white;
+    text-decoration: none;
+}
+
+.nostyle:hover {
+    color: yellow;
+}
+
+.nostyle2 {
+
+    color: black;
+    text-decoration: none;
+}
+
+.nostyle2:hover {
+    color: #031a29;
+}
+
+#intern {
+    font-family: 'quicksand';
+    font-weight: bolder;
+    font-size: larger;
+    letter-spacing: 5px;
+}
+p {
+    font-family: 'quicksand';
+    font-weight: lighter;
+    margin-top: 15px;
+    text-indent: 5%;
+}
+
+li {
+    font-family: 'quicksand';
+    font-weight: lighter;
+    margin-top: 15px;
+}
+
+.list-nostyle {
+    font-family: 'quicksand';
+    font-weight: lighter;
+    margin-top: 15px;
+    list-style-type: none;
+    text-indent: 5%;
+}
+
+/* * {
+    border: 1px solid red;
+} */
+
+#profile-name {
+    text-align: center;
+    margin-bottom: 50px;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 15px;
+}
+
+#profile-bar {
+    
+    color: #0d0f4a;
+    font-family: 'bebas neue';
+    font-size: 30px;
+    letter-spacing: 5px;
+    text-align: center;
+
+    margin: auto;
+    padding: 25px;
+    height: 50px;
+    width: auto;
+
+    background-color: transparent;
+    backdrop-filter: blur(5px);
+    border: 2px solid #cccccc;
+    border-radius: 20px;
+    
+    position: sticky;
+    top: 0;
+}
+
+#intern {
+    margin-top: 1px;
+}
+
+#reference {
+    margin-top: 50px;
+}
+
+#reference-main {
+    user-select: all;
+}
+
+#box-reference1 {
+    width: 300px;
+    height: 300px;
+    float: left;
+    margin-top: 25px;
+    margin-left: 200px;
+}
+
+#box-reference2 {
+    width: 300px;
+    height: 300px;
+    float: right;
+    margin-top: 25px;
+    margin-right: 100px;
+}
+
+#footer-box {
+    clear: left;
+    width: 100vw;
+    height: 100px;
+    background:#0d0f4a;
+    border-top-left-radius: 25px;
+    border-top-right-radius: 25px;
+    margin-top: 50px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#footer-image {
+    width: 300;
+}
+
+#fb-image {
+    margin-top: 20px;
+    width: 30px;
+    padding: 5px;
+
+    float: left;
+    margin-left: 45%;
+}
+
+#ig-image {
+    margin-top: 20px;
+    width: 30px;
+    padding: 5px;
+
+    float: right;
+    margin-right: 45%;
+}
+
+/* * {
+    border: 1px solid red;
+} */

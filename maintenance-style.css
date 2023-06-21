@@ -1,0 +1,49 @@
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+} 
+
+h1 {
+    animation: bounce;
+    animation-duration: 2s;
+    font-size: 3vh;
+    margin-top: 30%;
+    color: white;
+    padding: 2vh 6vw;
+}
+
+h1:hover {
+    color: cyan;
+    transition: .3s;
+    transition-timing-function: ease-in-out;
+}
+
+i {
+    position: absolute;
+    top: 0;
+    left: 50%;
+
+}
+
+main {
+    background-image: url(./objects/background2-portrait.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    display: flex;
+    justify-content: center;
+    height: 90vh;
+}
+
+@media screen and (min-width: 1200px) {
+
+    main {
+        display: flex;
+        justify-content: center;
+    }
+
+    h1 {
+        font-size: 5vh;
+    }
+    
+}
